@@ -72,6 +72,27 @@ header{
 nav {
     flex-direction: column;
 }
-};
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+.teams-title .quick-list{
+
+
+    color: #727272;
+    font-weight: 500px;
+
+}
+.teams-title .features{
+    color: #FF900E;
+    font-weight: 700
+}
     
 
